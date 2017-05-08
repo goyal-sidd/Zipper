@@ -31,7 +31,8 @@ When the user uses this case he/she already has the Z-code for the location.
 5.	The relevant location is then marked on the map. 
 
 <h5>2.2.2: End Stakeholder Commercial Purpose</h5>
- ![Image](4.jpg?raw=true "Number of comparisions")
+
+![Image](4.jpg?raw=true "Number of comparisions")
 
 Use case: Make location pointer
 Brief description
@@ -43,4 +44,8 @@ Initial step-by-step description:  The stakeholder for this case knows the place
 4.	The co-ordinates are then filtered for the system.
 5.	The co-ordinates are then converted to Z-code(custom) using the algorithms.
 The Z-code (custom) is then displayed to stakeholder which he/she can use for his commercial purpose. 
+
+
+<h2>Built with</h2>
+Java, JDBC, Bootstrap, Google Geo-coding API, MySQL.
 
