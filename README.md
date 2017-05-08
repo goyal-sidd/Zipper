@@ -13,3 +13,34 @@ The software will counter the problem of difficulties faced in hunting a locatio
 The location pointer system has 2 main user classes, first user, given the Z-code and gets the precise location. The second type of user given the location and takes Z-code. Herein, there is diversification in the type of Z-code a user gets depending on his preferences and system. 
 
 ![Image](1.jpg?raw=true "Number of comparisions")
+![Image](2.jpg?raw=true "Number of comparisions")
+
+<h4>2.2: Functional Requirements specification</h4> 
+<h5>2.2.1: End user general purpose</h5>
+
+![Image](3.jpg?raw=true "Number of comparisions")
+Use case: Search Location3
+Brief description
+The general end case user accesses the program by giving the Z-code through the web interface. Then he/she is directed to the relevant location which will be marked on Google maps.
+Initial step-by-step description:
+When the user uses this case he/she already has the Z-code for the location.
+1.	Reader enters the Z-code in the interface.
+2.	The system takes the Z-code and then it is validated against a set of rules. 
+3.	The code is then converted through an algorithm to the co-ordinates.
+4.	The co-ordinates are passed to Google Maps.
+5.	The relevant location is then marked on the map. 
+
+<h5>2.2.2: End Stakeholder Commercial Purpose</h5>
+ ![Image](4.jpg?raw=true "Number of comparisions")
+
+Use case: Make location pointer
+Brief description
+This use case will involve the stakeholder to generate the Z-code for a particular location relevant to her/him. The Z-code will be a generalized one which will be unique to the particular co-ordinate. Further, the stakeholder may use a custom name for the Z-code, provided the availability against a particular amount of monetary/barter exchange. As the case is pertained for a public/government body, the rates shall be subsidized. 
+Initial step-by-step description:  The stakeholder for this case knows the place on the maps.
+1.	The address yields a rough location of the place.
+2.	The stakeholder then manually finds the exact place.
+3.	The system then imports the exact co-ordinates of the location.
+4.	The co-ordinates are then filtered for the system.
+5.	The co-ordinates are then converted to Z-code(custom) using the algorithms.
+The Z-code (custom) is then displayed to stakeholder which he/she can use for his commercial purpose. 
+
